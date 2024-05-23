@@ -6,7 +6,6 @@ nav_order: 1
 ---
 
 # Brukerveiledning for Smartere Forvaltning
----
 
 ### Tilgangskrav
 ----------------------
