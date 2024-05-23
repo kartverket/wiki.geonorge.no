@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Geonorge wiki som skal bli docs, men docs er opptatt
+description: Testttt
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://kartverket.github.io/wiki.geonorge.no/
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+aux_links: 
+  Template Repository: https://github.com/kartverket/wiki.geonorge.no
