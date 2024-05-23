@@ -8,6 +8,7 @@ permalink: /docs/tilgang
 
 # Tilgang & passord
 
+  
 De fleste datasett og tjenester i Norge defineres som åpne data. Disse er markert med en åpen grønn hengelås i kartkatalogen, og et filter kan aktiveres for å kun vise åpne data.
 
 Dataene er som regel underlagt lisenser for åpen bruk. De mest brukte lisensene er NLOD (Norsk lisens for offentlige data) og CC (Creative Common). Lisensene regulerer hvordan data kan brukes og hvem som kan bruke dem, men gir stor frihet til bruk både offentlig og kommersielt. Åpne data kan lastes ned gratis og uten passord.
