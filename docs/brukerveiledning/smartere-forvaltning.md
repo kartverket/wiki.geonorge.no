@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Brukerveiledning for Smartere Forvaltning
+title: Smartere Forvaltning
 nav_order: 2
 ---
 
