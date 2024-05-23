@@ -41,7 +41,7 @@ Som dataeier har du full kontroll over datasettene dine. Her er en steg-for-steg
 - **Definer egenskapstyper:** Velg egenskapstyper for å definere hvilke verdier som er tillatt. For egenskapstypen "Tekst", kan du også definere en liste over tillatte verdier eller kodelister.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/cffd245e-374e-4e4c-bf73-d35292f742f1" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/602b24a6-ac65-4459-92ae-0f493f2bb6bd" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -52,7 +52,7 @@ Som dataeier har du full kontroll over datasettene dine. Her er en steg-for-steg
 - **Tilgang til definisjoner:** Innen et datasett, klikk på "definisjoner" i menyen for å gjøre endringer i datasettets struktur, som å legge til en ny egenskap eller definere tillatte verdier.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/6052b448-d7fe-4e2e-9f7e-616b847d20b4" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/643c6665-28f4-40a8-bca9-6b615977d39c" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -64,7 +64,7 @@ Som dataeier har du full kontroll over datasettene dine. Her er en steg-for-steg
 - **Innsyn og redigering:** Du kan gi innsyn til organisasjoner, slik at de kan se dataene men ikke redigere dem. Alternativt kan du gi rettigheter til å redigere hele eller deler av datasettet til en bidragsyter. Hvis rettighetene er begrenset til deler av datasettet, vil bidragsyteren kun kunne se og redigere disse delene.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/3bff4df3-bf03-4673-8b09-75af315926c8" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/bd1e17d6-9506-4a66-8613-c03581a4f5e8" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -77,7 +77,7 @@ Som dataeier har du full kontroll over datasettene dine. Her er en steg-for-steg
 - **Valgfri handling:** Merk av for "Tøm database før import" hvis du ønsker at alle data registrert i datasettet skal slettes før de nye dataene importeres.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/c9b1c35d-1052-4d76-9fa7-faae662f8a55" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/f6203179-b627-473a-9907-12bb6ef6232c" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -88,7 +88,7 @@ Som dataeier har du full kontroll over datasettene dine. Her er en steg-for-steg
 - **Eksportere data:** Ved å klikke på eksportknappen i menyen, kan du eksportere de nåværende dataene til en GeoJSON-fil, som kan brukes videre i andre sammenhenger.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/83ad0ade-64d3-4d14-a628-067bd4b748e8" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/af50c095-1c44-45a8-bf73-93d2d6082dcc" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -106,7 +106,7 @@ Som datasetteier eller bidragsyter har du muligheten til å legge til og rediger
 - **Lagre objektet:** Når du er fornøyd med informasjonen og plasseringen, klikk på "Lagre" for å legge til objektet i datasettet.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/73bf1df2-46e2-48f4-b206-c32a4cd94d7e" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/9c3baf9c-05a5-49d8-b870-4927abdf9029" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -120,7 +120,7 @@ Som datasetteier eller bidragsyter har du muligheten til å legge til og rediger
 - **Lagre endringene:** Når du er ferdig med endringene, klikk på "Lagre" for å oppdatere objektet i datasettet.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/49d881c5-7b9e-4e7b-b5df-db36fa3acea3" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/01718784-08c7-4c96-b6ba-3650689d3e7d" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -134,7 +134,7 @@ Som datasetteier eller bidragsyter har du muligheten til å legge til og rediger
 - **Lagre endringer:** Etter å ha gjort endringer, klikk på "Avslutt redigering" for å lagre endringene.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/2326359a-279b-437a-9d29-d1c3d4723bcb" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/476530ad-cc67-4f41-9167-231849eddcb0" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -156,7 +156,7 @@ Nettverksanalyse tilbyr verktøy for å analysere forhold og interaksjoner mello
 - **Start analysen:** Når du har satt verdiene, klikk på "OK" for å starte nettverksanalysen.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/40775a27-f01a-4ad8-9f78-98c7bece7ef3" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/76b43eb9-3194-457b-82e5-d90f82979d2c" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -169,7 +169,7 @@ I resultatmenyen vil du se avstanden til de utvalgte objektene som er inkludert 
 - **Gå til objekt:** Denne funksjonen tillater deg å umiddelbart få mer informasjon om et spesifikt objekt ved å fokusere kartet på objektets plassering. Dette er ideelt for å undersøke objektets detaljer nærmere - i dialogboksen på venstre side vil nå informasjon om objektet vises.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/95c2705c-db21-47b7-8671-dc9ee18c81e4" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/a4cb8c6f-6922-4fe6-8ebd-8290f019760f" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -182,6 +182,6 @@ For å støtte deling, rapportering eller videre analyse, tilbyr løsningen eksp
 - **Eksporter som GeoJSON:** For teknisk bruk eller integrering med andre GIS-systemer, kan du også eksportere resultatene som en GeoJSON-fil. Dette formatet er ideelt for å bevare geografisk nøyaktighet og for å muliggjøre videre manipulasjon eller analyse av dataene i andre verktøy eller plattformer.
 
 <video width="100%" height="480" controls>
-  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/caf3cba1-0896-42c3-a996-19c0e0de384e" type="video/mp4">
+  <source src="https://github.com/kartverket/docs.geonorge.no/assets/22092618/98b21db8-82fb-4d32-afea-98b8ddf30b19" type="video/mp4">
   Your browser does not support the video tag.
 </video>
