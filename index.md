@@ -12,11 +12,8 @@ På docs.geonorge.no finner du omfattende og detaljert dokumentasjon for brukern
 
 - **Brukerveiledninger**:  
   Trinnvise instruksjoner og veiledninger for hvordan du kan bruke Geonorges ulike verktøy og tjenester.
-  - [Bruk av metadataeditor](#)
-  - [Smartere Forvaltning](smartere-forvaltning) (<-- lenke fungerer og har innhold)
 - **API-dokumentasjon**:  
   Detaljert informasjon om hvordan du kan integrere og benytte deg av Geonorges API-er for tilgang til geospatiale data og tjenester.
-  - [Hvordan bruke OGC API](#)
 - **Tekniske spesifikasjoner**:  
   Beskrivelser av tekniske krav og spesifikasjoner for utviklere som ønsker å bygge applikasjoner ved hjelp av Geonorge-data.
 - **Ofte stilte spørsmål (FAQ)**:  
@@ -29,12 +26,3 @@ Enten du er en utvikler, GIS-spesialist eller en vanlig bruker, vil docs.geonorg
 **Om du er utvikler og ønsker å sette opp egne tjenester eller levere data på Geonorge ber vi deg sjekke ut [developer.geonorge.no](https://developer.geonorge.no).**
 
 ----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
