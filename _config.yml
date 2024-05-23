@@ -3,7 +3,7 @@ description: Testttt
 theme: just-the-docs
 logo: "/assets/img/geonorge-logo.png"
 
-url: https://kartverket.github.io/wiki.geonorge.no/
+url: https://kartverket.github.io/docs.geonorge.no/
 
 aux_links: 
-  Template Repository: https://github.com/kartverket/wiki.geonorge.no
+  Template Repository: https://github.com/kartverket/docs.geonorge.no
