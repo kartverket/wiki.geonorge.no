@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Info
-nav_order: 2
+title: FAQ
+nav_order: 4
 ---
 
 # Her kommer det sikkert litt info
