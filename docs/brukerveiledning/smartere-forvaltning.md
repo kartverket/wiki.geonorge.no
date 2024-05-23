@@ -2,7 +2,7 @@
 layout: default
 title: Smartere Forvaltning
 parent: Brukerveiledning
-nav_order: 1
+nav_order: 2
 ---
 
 # Brukerveiledning for Smartere Forvaltning
