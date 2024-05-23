@@ -1,7 +1,7 @@
 ---
-layoute: default
+layout: default
 title: Brukerveiledning for Smartere Forvaltning
-nav_order: 3
+nav_order: 2
 ---
 
 # Brukerveiledning for Smartere Forvaltning
