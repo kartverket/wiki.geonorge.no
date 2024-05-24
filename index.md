@@ -4,13 +4,14 @@ layout: home
 nav_order: 1
 ---
 
-# Velkommen til testen av docs.geonorge.no
+# Velkommen til docs.geonorge.no
+## Dette er en test ツ
 ----------------------
 
 
 På docs.geonorge.no finner du omfattende og detaljert dokumentasjon for brukerne av Geonorge. Her kan du utforske en rekke ressurser som hjelper deg med å forstå og bruke de ulike data- og karttjenestene som tilbys av Geonorge. Dokumentasjonen inkluderer:
 
-- **Brukerveiledninger**:  
+- **Brukerveiledning**:  
   Trinnvise instruksjoner og veiledninger for hvordan du kan bruke Geonorges ulike verktøy og tjenester.
 - **API-dokumentasjon**:  
   Detaljert informasjon om hvordan du kan integrere og benytte deg av Geonorges API-er for tilgang til geospatiale data og tjenester.
