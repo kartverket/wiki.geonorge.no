@@ -2,7 +2,7 @@
 layout: default
 title: Gamle veiledere
 has_children: false
-permalink: /docs/gamle-veiledere
+permalink: /gamle-veiledere
 nav_order: 99
 ---
 
