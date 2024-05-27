@@ -47,7 +47,8 @@ Er du en Norge digitalt-part?
   <iframe src="https://www.geonorge.no/NDUserForm/"></iframe>
 </div>
 <div id="messageContainer" style="display: none;">
-  <p>Brukertilganger er kun for Norge digitalt parter. Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole</p>
+  <p class="bold-message">Brukertilganger er kun for Norge digitalt parter. 
+  Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole.</p>
 </div>
 
 <script>
