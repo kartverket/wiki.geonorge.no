@@ -3,7 +3,6 @@ description: Dokumentasjon for brukerne av Geonorge
 theme: just-the-docs
 logo: "/assets/img/geonorge-logo.png"
 favicon_ico: "/assets/img/favicon.ico"
-permalink: /:name/
 
 url: https://kartverket.github.io/docs.geonorge.no/
 
