@@ -2,6 +2,7 @@
 layout: default
 title: Registreringsskjema
 parent: Tilgang & passord
+permalink: /tilgang/registrering
 ---
 
 Er du en Norge digitalt-part?
