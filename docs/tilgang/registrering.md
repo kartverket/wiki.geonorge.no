@@ -53,6 +53,9 @@ Er du en Norge digitalt-part?
 <div id="messageContainer" style="display: none;">
   <p class="bold-message">Brukertilganger er kun for Norge digitalt parter.<br>
   Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole.</p>
+  <p class="bold-message">
+    <a href="https://www.geonorge.no/globalassets/geonorge2/parter/nasjonale-parter-i-norge-digitalt-1.pdf" target="_blank">Liste over nasjonale parter i Norge digitalt</a>
+  </p>
 </div>
 
 <script>
