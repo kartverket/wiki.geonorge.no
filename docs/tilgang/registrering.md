@@ -29,6 +29,13 @@ Er du en Norge digitalt-part?
 
   #iframeContainer, #messageContainer {
     margin-top: 20px;
+    height: 100vh;
+  }
+
+  #iframeContainer iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
   }
 </style>
 
@@ -36,7 +43,7 @@ Er du en Norge digitalt-part?
 <button class="modern-button" onclick="showMessage()">Nei</button>
 
 <div id="iframeContainer" style="display: none;">
-  <iframe src="https://www.geonorge.no/NDUserForm/" width="100%" height="100vh"></iframe>
+  <iframe src="https://opengeospatial.github.io/e-learning/index.html"></iframe>
 </div>
 <div id="messageContainer" style="display: none;">
   <p>Brukertilganger er kun for Norge digitalt parter. Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole</p>
@@ -53,4 +60,5 @@ Er du en Norge digitalt-part?
     document.getElementById('messageContainer').style.display = 'block';
   }
 </script>
+
 
