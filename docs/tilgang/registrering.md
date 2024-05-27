@@ -10,7 +10,7 @@ Er du en Norge digitalt-part?
 <!-- HTML and JavaScript to add buttons and functionality -->
 <style>
   .modern-button {
-    background-color: #007BFF;
+    background-color: #fe5000;
     border: none;
     color: white;
     padding: 10px 20px;
