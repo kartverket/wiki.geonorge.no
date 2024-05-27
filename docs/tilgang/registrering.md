@@ -48,13 +48,13 @@ Er du en Norge digitalt-part?
 <button class="modern-button" onclick="showMessage()">Nei</button>
 
 <div id="iframeContainer" style="display: none;">
-  <iframe id="contentIframe" src=""></iframe>
+  <iframe src="https://www.geonorge.no/NDUserForm/"></iframe>
 </div>
 <div id="messageContainer" style="display: none;">
   <p class="bold-message">Brukertilganger er kun for Norge digitalt parter.<br>
   Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole.</p>
   <p class="bold-message">
-    <a href="#" onclick="openPdfInIframe()">Liste over nasjonale parter i Norge digitalt</a>
+    <a href="https://www.geonorge.no/globalassets/geonorge2/parter/nasjonale-parter-i-norge-digitalt-1.pdf" target="_blank">Liste over nasjonale parter i Norge digitalt</a>
   </p>
 </div>
 
@@ -62,17 +62,10 @@ Er du en Norge digitalt-part?
   function showIframe() {
     document.getElementById('iframeContainer').style.display = 'block';
     document.getElementById('messageContainer').style.display = 'none';
-    document.getElementById('contentIframe').src = 'https://www.geonorge.no/NDUserForm/';
   }
 
   function showMessage() {
     document.getElementById('iframeContainer').style.display = 'none';
     document.getElementById('messageContainer').style.display = 'block';
-  }
-
-  function openPdfInIframe() {
-    document.getElementById('iframeContainer').style.display = 'block';
-    document.getElementById('messageContainer').style.display = 'none';
-    document.getElementById('contentIframe').src = 'https://www.geonorge.no/globalassets/geonorge2/parter/nasjonale-parter-i-norge-digitalt-1.pdf';
   }
 </script>
