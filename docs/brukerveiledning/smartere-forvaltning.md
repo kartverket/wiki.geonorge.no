@@ -3,6 +3,7 @@ layout: default
 title: Smartere Forvaltning
 parent: Brukerveiledning
 nav_order: 2
+permalink: /brukerveiledning/smartere-forvaltning
 ---
 
 # Brukerveiledning for Smartere Forvaltning
