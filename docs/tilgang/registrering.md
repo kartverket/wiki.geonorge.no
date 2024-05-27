@@ -38,6 +38,10 @@ Er du en Norge digitalt-part?
     height: 100%;
     border: none;
   }
+
+  .bold-message {
+    font-weight: bold;
+  }
 </style>
 
 <button class="modern-button" onclick="showIframe()">Ja</button>
@@ -47,7 +51,7 @@ Er du en Norge digitalt-part?
   <iframe src="https://www.geonorge.no/NDUserForm/"></iframe>
 </div>
 <div id="messageContainer" style="display: none;">
-  <p class="bold-message">Brukertilganger er kun for Norge digitalt parter. 
+  <p class="bold-message">Brukertilganger er kun for Norge digitalt parter.<br>
   Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole.</p>
 </div>
 
@@ -62,5 +66,3 @@ Er du en Norge digitalt-part?
     document.getElementById('messageContainer').style.display = 'block';
   }
 </script>
-
-
