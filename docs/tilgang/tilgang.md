@@ -3,7 +3,7 @@ layout: default
 title: Tilgang & passord
 nav_order: 2
 has_children: true
-permalink: /docs/tilgang
+permalink: /tilgang
 ---
 
 # Tilgang & passord
