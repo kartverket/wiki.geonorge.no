@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Vanlig
-description: Metadataeditor - vanlig
+title: Metadataeditor - Vanlig
 parent: Metadataeditor
+grand_parent: Brukerveiledning
 nav_order: 1
 ---
 
