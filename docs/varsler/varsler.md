@@ -31,7 +31,7 @@ Varslene kan være av flere typer:
 
 Du kan abonnere på varsler ved å bruke RSS-feed fra Varselregisteret: [Abonner på varsler](https://register.geonorge.no/api/register/varsler.rss?)
 
-<a href="https://register.geonorge.no/register/varsler"><img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="wrench-icon" style="width:40px;height:40px;"></a>
+<a href="https://register.geonorge.no/register/varsler"><img src="https://cdn-icons-png.flaticon.com/512/4712/4712108.png" alt="robot-icon" style="width:40px;height:40px;"></a>a>
 
 ### Varsler og driftsmeldinger 
 
