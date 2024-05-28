@@ -6,13 +6,12 @@ has_children: false
 permalink: /varsler
 ---
 
-* [Geonorge](https://www.geonorge.no)
-* [Aktuelt](https://www.geonorge.no/aktuelt/)
-* Varsler og driftsmeldinger 
 
 # Varsler og driftsmeldinger 
 
-[![Facebook](https://cdn-icons-png.flaticon.com/512/174/174848.png =20x20)](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.geonorge.no%2Faktuelt%2Fvarsler%2F) [![Twitter](https://cdn-icons-png.flaticon.com/512/733/733579.png =20x20)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.geonorge.no%2Faktuelt%2Fvarsler%2F) [![Email](https://cdn-icons-png.flaticon.com/512/732/732200.png =20x20)](mailto:?subject=Varsler og driftsmeldinger&body=https%3A%2F%2Fwww.geonorge.no%2Faktuelt%2Fvarsler%2F)
+<a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.geonorge.no%2Faktuelt%2Fvarsler%2F"><img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" alt="Facebook" style="width:20px;height:20px;"></a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.geonorge.no%2Faktuelt%2Fvarsler%2F"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" style="width:20px;height:20px;"></a>
+<a href="mailto:?subject=Varsler og driftsmeldinger&body=https%3A%2F%2Fwww.geonorge.no%2Faktuelt%2Fvarsler%2F"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" style="width:20px;height:20px;"></a>
 
 Her finner du varsler for tjenester og datasett, samt driftsmeldinger fra Geonorge og partene i Norge digitalt.
 
@@ -33,13 +32,13 @@ Varslene kan være av flere typer:
 
 Du kan abonnere på varsler ved å bruke RSS-feed fra Varselregisteret: [Abonner på varsler](https://register.geonorge.no/api/register/varsler.rss?)
 
-[![teaser-icon](https://cdn-icons-png.flaticon.com/512/2370/2370185.png =40x40)](https://register.geonorge.no/register/varsler)
+<a href="https://register.geonorge.no/register/varsler"><img src="https://cdn-icons-png.flaticon.com/512/2370/2370185.png" alt="teaser-icon" style="width:40px;height:40px;"></a>
 
 Varsler og driftsmeldinger 
 
 Vi legger fortløpende ut varsler og driftsmeldinger for data og tjenester i Geonorge. 
 
-[![teaser-icon](https://cdn-icons-png.flaticon.com/512/3043/3043667.png =40x40)](https://www.geonorge.no/aktuelt/varsler/Driftsmeldinger-og-teknisk-support/)
+<a href="https://www.geonorge.no/aktuelt/varsler/Driftsmeldinger-og-teknisk-support/"><img src="https://cdn-icons-png.flaticon.com/512/3043/3043667.png" alt="teaser-icon" style="width:40px;height:40px;"></a>
 
 Andre driftsmeldinger
 
