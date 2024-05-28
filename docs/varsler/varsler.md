@@ -31,14 +31,14 @@ Varslene kan være av flere typer:
 
 Du kan abonnere på varsler ved å bruke RSS-feed fra Varselregisteret: [Abonner på varsler](https://register.geonorge.no/api/register/varsler.rss?)
 
-<a href="https://register.geonorge.no/register/varsler"><img src="https://cdn-icons-png.flaticon.com/512/4712/4712108.png" alt="robot-icon" style="width:40px;height:40px;"></a>
-
 ### Varsler og driftsmeldinger 
 
 Vi legger fortløpende ut varsler og driftsmeldinger for data og tjenester i Geonorge. 
 
-<a href="https://www.geonorge.no/aktuelt/varsler/Driftsmeldinger-og-teknisk-support/"><img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="cogwheel-icon" style="width:40px;height:40px;"></a>
+<a href="https://register.geonorge.no/register/varsler"><img src="https://cdn-icons-png.flaticon.com/512/4712/4712108.png" alt="robot-icon" style="width:40px;height:40px;"></a>
 
 ### Andre driftsmeldinger
 
 Oversikt over driftsmeldinger og teknisk support fra partenes egne sider.
+
+<a href="https://www.geonorge.no/aktuelt/varsler/Driftsmeldinger-og-teknisk-support/"><img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="cogwheel-icon" style="width:40px;height:40px;"></a>
