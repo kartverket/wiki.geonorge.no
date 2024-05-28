@@ -3,7 +3,7 @@ layout: default
 title: Gamle veiledere
 has_children: false
 permalink: /gamle-veiledere
-nav_order: 99
+nav_order: 999
 ---
 
 Veiledere beskriver blant annet hvordan datasett og tjenester skal dokumenteres før leveranse, eller hvordan man skal levere filer og grensesnitt (API/nettbaserte tjenester). Slik sikrer du som leverandør at andre får enkel tilgang til data og informasjon.
