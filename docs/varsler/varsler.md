@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Varsler & driftsmeldinger
-nav_order: 6
+nav_order: 2
 has_children: false
 permalink: /varsler
 ---
