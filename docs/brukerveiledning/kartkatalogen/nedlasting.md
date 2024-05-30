@@ -4,7 +4,7 @@ title: Laste ned data
 parent: Kartkatalogen
 grand_parent: Brukerveiledning
 nav_order: 2
-permalink: /brukerveiledning/metadataeditor/laste-ned-data
+permalink: /brukerveiledning/kartkatalogen/laste-ned-data
 ---
 
 # Laste ned data
