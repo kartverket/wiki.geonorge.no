@@ -41,4 +41,4 @@ Vi legger fortløpende ut varsler og driftsmeldinger for data og tjenester i Geo
 
 Oversikt over driftsmeldinger og teknisk support fra partenes egne sider.
 
-<a href="https://www.geonorge.no/aktuelt/varsler/Driftsmeldinger-og-teknisk-support/"><img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="cogwheel-icon" style="width:40px;height:40px;"></a>
+<a href="https://kartverket.github.io/docs.geonorge.no/varsler/andre-driftsmeldinger"><img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="cogwheel-icon" style="width:40px;height:40px;"></a>
