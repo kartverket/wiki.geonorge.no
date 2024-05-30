@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hvordan laste ned kartdata?
+title: Laste ned data
 parent: Kartkatalogen
 grand_parent: Brukerveiledning
 nav_order: 2
