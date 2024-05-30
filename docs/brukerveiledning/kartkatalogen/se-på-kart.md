@@ -4,7 +4,7 @@ title: Se på kart
 parent: Kartkatalogen
 grand_parent: Brukerveiledning
 nav_order: 1
-permalink: /brukerveiledning/metadataeditor/se-på-kart
+permalink: /brukerveiledning/kartkatalogen/se-på-kart
 ---
 
 # Se på kart
