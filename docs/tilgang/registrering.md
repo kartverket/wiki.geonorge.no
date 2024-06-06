@@ -44,8 +44,8 @@ permalink: /tilgang/registrering
 
 <button class="modern-button" onclick="showIframe('https://www.geonorge.no/NDUserForm/')">Norge digitalt-part</button>
 <button class="modern-button" onclick="showStudentMessage()">Student</button>
-<button class="modern-button" onclick="openLink('https://www.geonorge.no/Geodataarbeid/Norge-digitalt/avtaler-og-maler/')">Forhandler</button>
-<button class="modern-button" onclick="openLink('https://www.kartverket.no/api-og-data/kjope-kartdata')">Annet</button>
+<button class="modern-button" onclick="showForhandlerMessage()">Forhandler</button>
+<button class="modern-button" onclick="showAnnetMessage()">Annet</button>
 
 <div id="iframeContainer" style="display: none;">
   <iframe></iframe>
@@ -63,6 +63,20 @@ permalink: /tilgang/registrering
     var messageContainer = document.getElementById('messageContainer');
     messageContainer.style.display = 'block';
     messageContainer.innerHTML = '<p class="bold-message">Brukertilganger er kun for Norge digitalt parter.<br>Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole.</p><p class="bold-message"><a href="https://www.geonorge.no/globalassets/geonorge2/parter/nasjonale-parter-i-norge-digitalt-1.pdf" target="_blank">Liste over nasjonale parter i Norge digitalt</a></p>';
+    document.getElementById('iframeContainer').style.display = 'none';
+  }
+
+  function showForhandlerMessage() {
+    var messageContainer = document.getElementById('messageContainer');
+    messageContainer.style.display = 'block';
+    messageContainer.innerHTML = '<p class="bold-message">Avtaledokumenter og de generelle vilkårene for Norge digitalt-samarbeidet:</p><p class="bold-message"><a href="https://www.geonorge.no/Geodataarbeid/Norge-digitalt/avtaler-og-maler/" target="_blank">Avtaledokumenter</a></p>';
+    document.getElementById('iframeContainer').style.display = 'none';
+  }
+
+  function showAnnetMessage() {
+    var messageContainer = document.getElementById('messageContainer');
+    messageContainer.style.display = 'block';
+    messageContainer.innerHTML = '<p class="bold-message">Ønsker du kartdata som ikke er gratis, kan du sende oss en e-post dersom det gjelder dybde- eller sjørelaterte data. Gjelder det landbaserte data, må du kontakte en av forhandlerne våre.</p><p class="bold-message"><a href="https://www.kartverket.no/api-og-data/kjope-kartdata" target="_blank">Forhandlere</a></p>';
     document.getElementById('iframeContainer').style.display = 'none';
   }
 
