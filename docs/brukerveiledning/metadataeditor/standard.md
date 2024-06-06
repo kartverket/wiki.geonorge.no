@@ -6,413 +6,320 @@ grand_parent: Brukerveiledning
 nav_order: 1
 permalink: /brukerveiledning/metadataeditor/standard
 ---
+# Veiledning for Metadataeditor i Geonorge
 
-# Metadataeditor
+Denne veiledningen gir en enkel og kortfattet guide for nye brukere om hvordan man legger inn metadata i Geonorge ved hjelp av metadataeditoren.
 
-Veileder for etablering og bruk av metadataeditoren i Geonorge
+---
 
-**Tittel:** Veileder for metadata  
-**Utarbeidet av:** Norge digitalt  
-**Søkeord:** Veileder, metadataeditor, NSDI, SDI, Infrastruktur for stedfestet informasjon, Norge digitalt.  
-**Opplagstall:** 1 elektronisk  
-**Versjon:** 20220111  
-**Dato:** 11.01.2022  
-**Dok. status:** Arbeidsversjon
-
-## Metadataveileder
-
-### Versjon 1.5
-
-**Utgiver:**  
-Kartverket 2022.  
-Veilederen utgis av Kartverket som nasjonal geodatakoordinator.
-
-### Revisjonshistorikk
-
-| Versjon  | Produsert av | Dato       | Endring          |
-| -------- | ------------ | ---------- | ---------------- |
-| 20220111 | Kartverket   | 2022-01-11 | Første versjon.  |
-
-### Innholdsfortegnelse
-
-1. [Innledning](#innledning)
-   - [Formål](#formål)
-   - [Målgruppe](#målgruppe)
-   - [Hvordan skrive gode metadata](#hvordan-skrive-gode-metadata)
-2. [Finne metadataeditoren og opprette metadata](#finne-metadataeditoren-og-opprette-metadata)
-   - [Opprette metadataoppføring](#opprette-metadataoppføring)
-   - [Enkle metadata](#enkle-metadata)
-   - [Batch-oppdatering](#batch-oppdatering)
-   - [Oppbygning av editeringsverktøyet](#oppbygning-av-editeringsverktøyet)
-   - [Lagring](#lagring)
-   - [Hjelpetekster](#hjelpetekster)
-   - [Obligatoriske metadata](#obligatoriske-metadata)
-   - [Engelsk metadata](#engelsk-metadata)
+#### Innholdsfortegnelse
+1. [Introduksjon](#introduksjon)
+2. [Finne og opprette metadata](#finne-og-opprette-metadata)
 3. [Fane Grunnleggende](#fane-grunnleggende)
-   - [Tittel (Påkrevd)](#tittel-påkrevd)
-   - [Beskrivelse (Påkrevd)](#beskrivelse-påkrevd)
-   - [Hjelp for bruk](#hjelp-for-bruk)
-   - [URL til hjelp](#url-til-hjelp)
-   - [Bruksområde (Påkrevd)](#bruksområde-påkrevd)
-   - [Formål (Påkrevd)](#formål-påkrevd)
 4. [Fane Tid og rom](#fane-tid-og-rom)
-   - [Dato sist oppdatert](#dato-sist-oppdatert)
-   - [Publiseringsdato](#publiseringsdato)
-   - [Opprettet dato](#opprettet-dato)
-   - [Gyldig fra dato](#gyldig-fra-dato)
-   - [Gyldig til dato](#gyldig-til-dato)
-   - [Oppdateringshyppighet (Påkrevd)](#oppdateringshyppighet-påkrevd)
-   - [Spatial scope](#spatial-scope)
-   - [Nøkkelord for geografisk område](#nøkkelord-for-geografisk-område)
-   - [Nøkkelord for administrative enheter](#nøkkelord-for-administrative-enheter)
-   - [Geografisk utstrekning](#geografisk-utstrekning)
-   - [Dekningskart](#dekningskart)
-     - [Bildefil](#bildefil)
-     - [Karttjenestelag](#karttjenestelag)
-     - [Webside](#webside)
-     - [Dekningskart Geonorge](#dekningskart-geonorge)
 5. [Fane Kontaktinformasjon](#fane-kontaktinformasjon)
-   - [Metadatakontakt](#metadatakontakt)
-   - [Teknisk kontakt](#teknisk-kontakt)
-   - [Faglig kontakt](#faglig-kontakt)
 6. [Fane Distribusjon](#fane-distribusjon)
-   - [Representasjonsform](#representasjonsform)
-   - [Distribusjon](#distribusjon)
-     - [Organisasjon](#organisasjon)
-     - [Distribusjonstype](#distribusjonstype)
-     - [URL](#url)
-     - [Formater](#formater)
-   - [Romlig referansesystem](#romlig-referansesystem)
 7. [Fane Dokumentasjon](#fane-dokumentasjon)
-   - [SOSI produktspesifikasjon](#sosi-produktspesifikasjon)
-   - [UML-modell](#uml-modell)
-   - [Begreper](#begreper)
-   - [Annen produktspesifikasjon](#annen-produktspesifikasjon)
-   - [Produktark](#produktark)
-   - [Tegneregler](#tegneregler)
-   - [Produktside](#produktside)
-   - [Illustrasjonsbilde (Påkrevd)](#illustrasjonsbilde-påkrevd)
 8. [Fane Restriksjoner](#fane-restriksjoner)
-   - [Bruksbegrensninger](#bruksbegrensninger)
-   - [Tilgangsrestriksjoner](#tilgangsrestriksjoner)
-   - [Brukerrestriksjoner](#brukerrestriksjoner)
-   - [Andre restriksjoner](#andre-restriksjoner)
-   - [Sikkerhetsnivå](#sikkerhetsnivå)
-   - [Lovhenvisning](#lovhenvisning)
 9. [Fane Nøkkelord](#fane-nøkkelord)
-   - [Tematisk hovedkategori](#tematisk-hovedkategori)
-   - [Tema](#tema)
-   - [Nasjonal temakategori](#nasjonal-temakategori)
-   - [Inspire-kategorier](#inspire-kategorier)
-   - [EU-prioriterte datasett](#eu-prioriterte-datasett)
-   - [Ukategoriserte nøkkelord](#ukategoriserte-nøkkelord)
 10. [Fane Kvalitet](#fane-kvalitet)
-    - [Målestokktall](#målestokktall)
-    - [Status](#status)
-    - [Prosesshistorie](#prosesshistorie)
 11. [Fane Administrativt](#fane-administrativt)
 
 ---
 
-## Innledning
+### Introduksjon
 
-### Formål
+#### 1.1 Formål
+Denne veiledningen gir en oversikt over metadataeditoren i Geonorge og hvordan man legger inn metadata.
 
-- Gi oversikt over metadataeditoren i Geonorge og innholdet i denne
-- Gi oversikt over hvordan man kan legge inn metadata
+#### 1.2 Målgruppe
+Etater og offentlige enheter med behov for å registrere metadata i Geonorge.
 
-### Målgruppe
+#### 1.3 Hvordan skrive gode metadata
+Metadata skal være informativ og konsis. For mer detaljer, se dokumentet [Bedre metadata](https://www.geonorge.no/globalassets/geonorge2/veiledere/bedre_metadata.pdf).
 
-Etater og offentlige enheter med behov for å registrere metadata i Geonorge
+---
 
-### Hvordan skrive gode metadata
+### Finne og opprette metadata
 
-Informasjonen i metadataoppføringen bør være informativ og konsis. Det anbefales å se gjennom dokumentet Bedre metadata før man etablerer metadata.
+#### 2.1 Finne metadataeditoren
+1. Gå til [metadataeditoren](https://editor.geonorge.no) eller naviger via menyen på Geonorge.
+2. Logg inn med brukernavn og passord. Har du ikke dette, kontakt [post@norgedigitalt.no](mailto:post@norgedigitalt.no).
 
-## Finne metadataeditoren og opprette metadata
+#### 2.2 Opprette metadataoppføring
+1. Trykk på fanen "Opprett metadata".
+2. Fyll inn tittel på metadataoppføringen, velg type, og skriv inn navn og e-postadresse til metadatakontakt.
+3. Trykk deretter på knappen "Opprett metadata" for å opprette metadata.
 
-Opprettelse av nye metadataoppføringer i Geonorge gjøres ved hjelp av metadataeditoren. For å komme til denne kan man gå direkte til <https://editor.geonorge.no> eller navigere seg fram i menyen på Geonorge. Velg meny og verktøy.
+![Skjermbilde av opprette metadata](https://github.com/kartverket/docs.geonorge.no/assets/22092618/437e7b71-a350-458a-940d-34410a76b274)
 
-Siden Verktøy vil åpnes. Bla nedover til du finner Metadataeditor og trykk på denne. Du vil nå komme til metadataeditoren.
 
-For å kunne opprette metadata må man være logget inn. Dette gjøres ved å gå til Meny og trykke Logg inn. Her må man logge inn med brukernavn og passord. Har man ikke brukernavn og passord kan man henvende seg til post@norgedigitalt.no. Er du allerede logget inn i Geonorge vil du komme rett inn i editoren.
+#### 2.3 Lagring
+1. Lagre endringer ved å trykke "Lagre" nederst på siden.
+2. Feilmeldinger vises hvis påkrevd informasjon mangler.
+3. Huk av for "Ignorer feil" hvis du vil lagre metadataene selv om noen felter mangler informasjon.
 
-## Opprette metadataoppføring
+![Skjermbilde av lagring](https://github.com/kartverket/docs.geonorge.no/assets/22092618/36e43a28-e01e-4fb3-bf59-b74d1f6ce93b)
 
-Metadataeditoren er inndelt i flere faner. Den første fanen viser en oversikt over sin etats etablerte metadata. For å opprette metadata trykker man på fanen Opprett metadata. Fyll deretter inn tittel på metadataoppføringen, velg type, skriv inn navn og e-postadresse til metadatakontakt. Trykk deretter på knappen Opprett metadata for opprette metadata.
 
-### Enkle metadata
+#### 2.4 Hjelpetekster
+Trykk på spørsmålstegn-knappen ved siden av feltene for hjelpetekster.
 
-Metadataeditoren har en egen fane for enkle metadata. Denne viser en forenklet versjon av metadataeditoren, hvor kun utvalgte metadatafelt er tilgjengelig. Det vil kunne være fordelaktig å benytte standard metadataeditor som dette dokumentet beskriver, da standard metadataeditor gir flere muligheter for metadatainformasjon. Gjennomgang av enkel metadataeditor finnes i dokumentet enkel metadataeditor.
+![Skjermbilde av hjelpetekster](https://github.com/kartverket/docs.geonorge.no/assets/22092618/3549e11f-ee4e-4148-bb3a-869d2bdd1a52)
 
-### Batch-oppdatering
 
-Fanen batch-oppdatering gir tilgang til funksjoner for å massivt oppdatere metadatafelt i en enkel operasjon. Det anbefales at du tar kontakt med Geodatakoordinator på post@norgedigitalt.no hvis du har metadata som ønskes massivoppdatert.
+#### 2.5 Obligatoriske metadata
+Felter som må fylles ut er merket med en rød stjerne (*).
 
-## Oppbygning av editeringsverktøyet
+#### 2.6 Engelsk metadata
+Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
-Du har nå opprettet metadataoppføringen og har kommet til delen av metadataeditoren hvor man legger inn selve metadataene. Editeringsverktøyet er delt inn i flere faner med gruppert informasjon.
+---
 
-## Lagring
+### Fane Grunnleggende
 
-Endringer og informasjon lagt til i editoren lagres ved å trykke på knappen Lagre nederst på siden.
+#### 3.1 Tittel (Påkrevd)
+- **Best practice:** Datasettnavn bør være presist og unikt. Unngå generelle begreper. Bruk spesifikke og beskrivende navn som "Akvakulturlokaliteter" i stedet for bare "Lokaliteter".
 
-Ved lagring vil du umiddelbart få tilbakemelding om eventuelle manglende informasjon gjennom feilmeldinger over arkfanene. Du vil også få rød markering på arkfane og markering på hvilket påkrevd felt som mangler. Du vil imidlertid likevel kunne lagre metadataene dine dersom du huker av for «Ignorer feil» like ved lagre-knappen. Dette kan være nyttig for å lagre stegvis i prosessen for å hindre at metadata mistes.
+#### 3.2 Beskrivelse (Påkrevd)
+- Gi en utdypende beskrivelse av datasettet eller tjenesten.
+- **Best practice:** Start med den viktigste informasjonen og gjør det klart hva datasettet inneholder.
 
-## Hjelpetekster
+#### 3.3 Hjelp for bruk
+- Tilby kort informasjon om bruk av dataene.
+- **Best practice:** Inkluder tips om filformater eller programvare som egner seg for å lese dataene.
 
-Samtlige felter i metadataeditoren har til høyre for seg, en knapp formet som et spørsmålstegn. Ved å trykke på denne knappen vil du få opp en hjelpetekst for hva det aktuelle feltet skal inneholde.
+#### 3.4 URL til hjelp
+- Legg til lenke til ekstern hjelpeside hvis tilgjengelig.
+- **Best practice:** Sørg for at hjelpesiden er oppdatert og relevant for brukerne.
 
-## Obligatoriske metadata
+#### 3.5 Bruksområde (Påkrevd)
+- Oppgi hvilke oppgaver datasettet kan brukes til.
+- **Best practice:** Spesielt henvis til bruksområder relatert til kommunenes plan- og byggesaksarbeid.
 
-Felter i metadataeditoren som er obligatoriske og må fylles ut mer merket med rød stjerne *
+#### 3.6 Formål (Påkrevd)
+- Informer om formålet dataene ble samlet inn for.
+- **Best practice:** Angi hvis dataene ikke egner seg til annet bruk enn det opprinnelige formålet.
 
-## Engelsk metadata
+---
 
-Alle tekstfelt har mulighet for å legge til engelsk tekst. Ved et tekstfelt kan man velge å vise feltet hvor man skriver inn norsk, engelsk, eller vise begge samtidig.
+### Fane Tid og rom
 
-## Fane Grunnleggende
+#### 4.1 Dato sist oppdatert
+- Oppgi dato for siste oppdatering av datasettet.
+- **Best practice:** Dette hjelper brukere med å vurdere dataenes aktualitet.
 
-### Tittel (Påkrevd)
+#### 4.2 Publiseringsdato
+- Oppgi dato for første publisering av datasettet.
+- **Best practice:** Dette gir brukere informasjon om når datasettet ble gjort tilgjengelig.
 
-Datasettnavn bør være presist og entydig og definere et unikt datasett. Generelle begreper bør unngås, slik at ulike etater som har samme type data ikke vil oppgi samme datasettnavn. Eksempelvis bør «Lokaliteter» unngås. Her bruker vi «Akvakulturlokaliteter» og «Kulturminner - Lokaliteter». Videre unngås datasettnavnet «Støy», da det er flere produsenter av støydata. Her brukes «Støy - bane», «Støy - veg», «Støy - lufthavn» og «Støy - skytebane».
+#### 4.3 Opprettet dato
+- Oppgi dato for opprettelse av datasettet.
+- **Best practice:** Viktig for å spore opprinnelsen til datasettet.
 
-### Beskrivelse (Påkrevd)
+#### 4.4 Gyldig fra dato
+- Angi dato hvis datasettet først er gyldig fra en gitt dato.
 
-Beskrivelsen er det første brukerne møter etter tittel og skal være utdypende til denne. Gi brukeren oversikt over datasettet ved å sette den viktigste informasjonen først. I beskrivelsen bør du fokusere på hva datasettet eller tjenesten inneholder. Feltet er obligatorisk for alle oppføringer.
+#### 4.5 Gyldig til dato
+- Angi dato hvis datasettet er gyldig til en gitt dato.
 
-### Hjelp for bruk
+#### 4.6 Oppdateringshyppighet (Påkrevd)
+- Velg riktig intervall for oppdateringer fra nedtrekkslisten.
+- **Best practice:** Informasjon om oppdateringsfrekvens er viktig for brukere som er avhengige av oppdaterte data.
 
-Formålet med hjelp er å tilby kort og grunnleggende informasjon om hvordan dataene skal tas i bruk. Eksempelvis kan man informere om hvilket filformat man skal velge, eller hvilken programvare som egner seg for å lese og bruke dataene. Under hjelp har man også mulighet til å legge inn lenke til dataeiers egen hjelpeside hvis dette skulle forekomme.
+#### 4.7 Spatial scope
+- Angi dekningsområde for datasettet.
+- **Best practice:** Bruk spesifikke beskrivelser av dekningsområdet.
 
-### URL til hjelp
+#### 4.8 Nøkkelord for geografisk område
+- Legg til nøkkelord som beskriver geografisk område, som fylker eller kommuner.
+- **Best practice:** Bruk entydige og relevante nøkkelord.
 
-Finnes egen ekstern hjelpeside kan lenke til denne legges inn her.
+![Skjermbilde av nøkkelord for geografisk område](https://github.com/kartverket/docs.geonorge.no/assets/22092618/49d07c20-83de-4010-8cc8-e50cf2231e1d)
 
-### Bruksområde (Påkrevd)
 
-Oppgi hvilke oppgaver datasettet kan, og eventuelt bør, brukes til. For datasett som inngår i det offentlige kartgrunnlaget (DOK) bør det spesielt henvises til bruksområder som er relatert til kommunenes plan- og byggesaksarbeid. Bruksbegrensninger skal fylles inn under bruksbegrensninger i fanen Restriksjoner
+#### 4.9 Nøkkelord for administrative enheter
+- Velg administrative enheter som fylke eller kommune.
+- **Best practice:** Sørg for at alle relevante enheter er dekket.
 
-### Formål (Påkrevd)
+![Skjermbilde av nøkkelord for administrative enheter](https://github.com/kartverket/docs.geonorge.no/assets/22092618/86fffc4f-d4c5-4c66-904c-9825fbea9db9)
 
-Formål skal informere om det formålet dataene ble samlet inn for. Det skal også her informeres hvis dataene ikke egner seg til annet bruk enn det formålet de ble samlet inn for.
 
-## Fane Tid og rom
+#### 4.10 Geografisk utstrekning
+- Angi utstrekning ved å tegne i kart eller skrive inn koordinater.
+- **Best practice:** Nøyaktige koordinater sikrer presis geografisk informasjon.
 
-### Dato sist oppdatert
+![Skjermbilde av geografisk utstrekning](https://github.com/kartverket/docs.geonorge.no/assets/22092618/8ee6151b-9bce-4f20-8f48-5c9fff52c6a6)
 
-Dato for siste oppdatering av datasettet/tjeneste. Oppdateres dataene kontinuerlig, holder det å angi tidspunkt for etablering av datasettet/tjenesten i feltet Opprettet dato.
 
-### Publiseringsdato
+#### 4.11 Dekningskart
+- Last opp bildefil, angi karttjeneste, eller legg til lenke til webside som viser dekningsområdet.
+- **Best practice:** Bruk klare og lett forståelige dekningskart.
 
-Datoen referer til første publikasjon av datasettet/datasettet.
+**Som Bildefil:**
+![Skjermbilde av dekningskart - Bildefil](https://github.com/kartverket/docs.geonorge.no/assets/22092618/94e38f38-1a44-489e-8cb5-5e92d7e8ea54)
+**Som Karttjeneste:**
+![Skjermbilde av dekningskart - Karttjenestelag 1](https://github.com/kartverket/docs.geonorge.no/assets/22092618/b0655e12-5f4b-4997-8c8f-0a6b4bf813c7)
+![Skjermbilde av dekningskart - Karttjenestelag 2](https://github.com/kartverket/docs.geonorge.no/assets/22092618/c2d003ca-2bf1-4df7-8fc2-61620cbba92b)
+**Som Dekningskart - Geonorge:**
+![Skjermbilde av dekningskart - Geonorge](https://github.com/kartverket/docs.geonorge.no/assets/22092618/0818350c-d3ad-4f58-bbe7-f721526b1b90)
 
-### Opprettet dato
+---
 
-Datoen referer til dato for opprettelse av datasettet/tjenesten
+### Fane Kontaktinformasjon
 
-### Gyldig fra dato
+#### 5.1 Metadatakontakt
+- Oppgi kontaktpunkt for vedlikehold av metadata.
+- **Best practice:** Inkluder navn, e-postadresse og organisasjon for å sikre at brukerne kan få hjelp.
 
-Angi dato hvis datasettet/tjenesten først er gyldig fra en gitt dato
+#### 5.2 Teknisk kontakt
+- Oppgi kontaktpunkt for tekniske detaljer om datasettet.
+- **Best practice:** Inkluder detaljer som kan hjelpe brukere med tekniske spørsmål.
 
-### Gyldig til dato
+#### 5.3 Faglig kontakt
+- Oppgi kontaktpunkt for faglige spørsmål om datasettet.
+- **Best practice:** Sørg for at den faglige kontakten har tilstrekkelig kunnskap om datasettet.
 
-Angi dato hvis datasettet/tjenesten er gyldig til en gitt dato.
+![Kontaktpersoner](https://github.com/kartverket/docs.geonorge.no/assets/22092618/9b2052f2-4078-4647-b063-8609c33577b1)
 
-### Oppdateringshyppighet (Påkrevd)
+---
 
-Angir intervall for oppdateringer av datasettet/tjenesten. Valg gjøres fra nedtrekksliste.
+### Fane Distribusjon
 
-### Spatial scope
+#### 6.1 Representasjonsform
+- Velg riktig representasjonsform fra nedtrekkslisten, som vektor eller raster.
+- **Best practice:** Velg den mest nøyaktige representasjonsformen for datasettet.
 
-Spatial scope omtaltes i filteret i kartkatalogen i Geonorge som dekningsområde og angir dekningsområde for datasettet. Velges fra nedtrekksliste.
+![Skjermbilde av representasjonsform](https://github.com/kartverket/docs.geonorge.no/assets/22092618/d78c68a2-da40-4e9d-a1a9-ecf5a6bfc9c4)
 
-### Nøkkelord for geografisk område
 
-Nøkkelord for geografisk område kan angis som tekst og vil være søkbart. Administrative inndelinger som fylke og kommune legges inn i nøkkelord for administrative enheter. Legg til flere nøkkelord ved å trykke på knappen Legg til nøkkelord.
+#### 6.2 Distribusjon
+- Angi organisasjonen som distribuerer datasettet, og velg riktig distribusjonstype fra nedtrekkslisten.
+- **Best practice:** Gi klare og presise detaljer om hvordan datasettet distribueres.
 
-### Nøkkelord for administrative enheter
+![Skjermbilde av distribusjon](https://github.com/kartverket/docs.geonorge.no/assets/22092618/30c5302c-6566-44ac-8c72-40f0b1a25135)
 
-Velg administrativ enhet som passer for datasettet. Denne kan være fylke, kommune eller Norge (landsdekkende). Legg til flere nøkkelord ved å trykke på knappen Legg til nøkkelord.
 
-### Geografisk utstrekning
+#### 6.3 Romlig referansesystem
+- Angi referansesystemet datasettet bruker, for eksempel WGS84 eller EUREF89.
+- **Best practice:** Sørg for at referansesystemet er korrekt og relevant.
 
-Geografisk utstrekning viser datasettets utstrekning i form av koordinater. For å angi koordinater kan man velge landsdekkende, fylket eller kommunen datasettet dekker. Man kan også angi dette ved å tegne rektangel i kart, eller skrive inn koordinatene. Velger du fra nedtrekksliste eller ved å tegne rektangel vil dette sette inn koordinatene for deg.
+![Skjermbilde av romlig referansesystem](https://github.com/kartverket/docs.geonorge.no/assets/22092618/64506c3a-46fb-434b-a282-95e74443932a)
 
-### Dekningskart
 
-Dekningskart kan angis som egen webside, lag i en visningstjeneste eller bildefil.
+---
 
-#### Bildefil
+### Fane Dokumentasjon
 
-Du kan laste opp en bildefil fra egen datamaskin som viser dekningsområdet for dataene dine ved å trykke «velg fil» og deretter «last opp» når du har valgt filen.
+#### 7.1 SOSI produktspesifikasjon
+- Velg riktig SOSI produktspesifikasjon fra nedtrekkslisten hvis tilgjengelig.
 
-#### Karttjenestelag
+#### 7.2 UML-modell
+- Legg til lenke til UML-modell hvis tilgjengelig.
 
-Du kan angi en karttjeneste som har et lag som viser dekningsområdet.
+#### 7.3 Begreper
+- Hent begreper fra UML-modellen for å gjøre metadataene mer søkbare.
+- **Best practice:** Sørg for at begrepene er relevante og oppdaterte.
 
-#### Webside
+![Skjermbilde av begreper](https://github.com/kartverket/docs.geonorge.no/assets/22092618/729b16d6-7278-45e4-9379-118a09b9aaf4)
 
-Du kan lenke til en webside eller PDF som er tilgjengelig på internett som viser utbredelsen av dataene.
 
-#### Dekningskart Geonorge
+#### 7.4 Annen produktspesifikasjon
+- Legg til navn og lenke til andre relevante produktspesifikasjoner.
 
-Datasett som går gjennom Geonorges distribusjonsløype vil få generert eget dekningskart og er angitt som «Dekningskart Geonorge». Geodatakoordinator tar i noen tilfeller på seg å sette opp distribusjon av data på vegne av dataeier, og omtales her som Geonorges distribusjonsløype.
+#### 7.5 Produktark
+- Koble produktark fra nedtrekkslisten hvis tilgjengelig.
 
-## Fane Kontaktinformasjon
+#### 7.6 Tegneregler
+- Koble tegneregler fra nedtrekkslisten hvis tilgjengelig.
 
-Det er kun påkrevd å angi e-postadresse og organisasjon for kontaktpunkt. Det anbefales likevel å legge til navn. Organisasjonsnavn hentes fra organisasjonsregisteret i Geonorge.
+#### 7.7 Produktside
+- Legg til lenke til en ekstern produktside hvis tilgjengelig.
 
-### Metadatakontakt
+#### 7.8 Illustrasjonsbilde (Påkrevd)
+- Last opp et illustrasjonsbilde som representerer datasettet.
+- **Best practice:** Bruk et bilde som tydelig illustrerer innholdet i datasettet.
 
-Metadatakontakt er den som vedlikeholder metadata og kan svare på spørsmål knyttet til disse.
+![Skjermbilde av illustrasjonsbilde](https://github.com/kartverket/docs.geonorge.no/assets/22092618/8faffdeb-50e9-4225-a79b-37f7c85642d4)
 
-### Teknisk kontakt
 
-Kontaktpunkt som kan svare på tekniske detaljer om publisering og tilgjengeliggjøring av dataene.
+---
 
-### Faglig kontakt
+### Fane Restriksjoner
 
-Kontaktpunkt som har et eierforhold til dataene og kan svare inngående om faglige forhold rundt datasettets struktur og innhold.
+#### 8.1 Bruksbegrensninger
+- Angi begrensninger på bruk.
+- **Best practice:** Oppgi detaljerte og klare begrensninger for å unngå misbruk.
 
-## Fane Distribusjon
+![Skjermbilde av bruksbegrensninger](path/to/image24.png)
 
-I fanen distribusjon angis det hvordan datasettet distribueres, hvem som distribuerer dette, endepunkt og distribusjonsformater.
+#### 8.2 Tilgangsrestriksjoner
+- Velg tilgangsrestriksjon fra nedtrekkslisten.
+- **Best practice:** Sørg for at restriksjonene er i tråd med organisasjonens retningslinjer.
 
-Ved enkelte anledninger kan man benytte flere distribusjoner. Dette er eksempelvis aktuelt hvis data distribueres både gjennom Geonorges distribusjonsløype, men også direkte fra dataeier. Er det usikkerhet rundt flere distribusjoner anbefales det å ta kontakt med post@norgedigitalt.no. Finnes dataene både som vektor- og rasterfiler må det opprettes to metadataoppføringer.
 
-### Representasjonsform
+#### 8.3 Brukerrestriksjoner
+- Angi lisens og eventuelle brukerrestriksjoner.
+- **Best practice:** Velg en passende lisens fra nedtrekkslisten og oppgi spesifikke restriksjoner.
 
-Velg representasjonsform fra nedtrekksliste.
+#### 8.4 Andre restriksjoner
+- Angi andre restriksjoner.
+- **Best practice:** Vær så spesifikk som mulig om eventuelle andre restriksjoner.
 
-### Distribusjon
+#### 8.5 Sikkerhetsnivå
+- Angi sikkerhetsnivå fra nedtrekkslisten.
+- **Best practice:** Sørg for at sikkerhetsnivået er riktig klassifisert i henhold til dataens sensitivitet.
 
-#### Organisasjon
+#### 8.6 Lovhenvisning
+- Henvis til relevant lov eller forskrift.
+- **Best practice:** Inkluder spesifikke lovhenvisninger for å støtte eventuelle restriksjoner.
 
-Angi organisasjonen som distribuerer datasettet/tjenesten.
+---
 
-#### Distribusjonstype
+### Fane Nøkkelord
 
-Velg type distribusjon fra nedtrekksliste. Her velger man hvordan ressursen distribueres, eksempelvis som filnedlasting eller tjeneste. Er du usikker på hva du skal velge kan du sende epost til post@norgedigitalt.no for hjelp.
+#### 9.1 Tematisk hovedkategori
+- Velg tematiske kategorier fra nedtrekkslisten.
 
-#### URL
+#### 9.2 Tema
+- Angi relevante nøkkelord.
+- **Best practice:** Bruk entydige og beskrivende nøkkelord for å forbedre søkbarheten.
 
-Her legges adressen til nedlastingsside eller tjenesten inn.
+#### 9.3 Nasjonal temakategori
+- Velg fra nedtrekkslisten.
 
-### Formater
+#### 9.4 Inspire-kategorier
+- Velg Inspire-kategori fra nedtrekkslisten.
 
-Format som ressursen distribueres i velges fra nedtrekksliste. Valgmulighetene i nedtrekkslisten er gitt på bakgrunn av valgt representasjonsrom. Velger man vektor som representasjonsform vil man få andre formater å velge mellom enn hvis man velger raster.
+#### 9.5 EU-prioriterte datasett
+- Angi om datasettet er EU-prioritert.
 
-### Romlig referansesystem
+#### 9.6 Ukategoriserte nøkkelord
+- Brukes ikke, legg nøkkelord under Tema.
 
-I dette feltet kan man angi aktuelle referansesystem ressursen distribueres i. Aktuelle referansesystemer angis ved valg i nedtrekksliste. Man kan legge til flere referansesystemer ved å trykke på knappen Nytt referansesystem.
+---
 
-## Fane Dokumentasjon
+### Fane Kvalitet
 
-### SOSI produktspesifikasjon
+#### 10.1 Målestokktall
+- Angi målestokktall som heltall, for eksempel 50000.
+- **Best practice:** Sørg for at målestokktallet er korrekt og reflekterer datasettets nøyaktighet.
 
-Er det etablert en produktspesifikasjon som er tilgjengelig i Geonorges register over produktspesifikasjoner kan denne velges fra nedtrekkslisten.
+#### 10.2 Status
+- Angi status for datasettet fra nedtrekkslisten.
 
-### UML-modell
+#### 10.3 Prosesshistorie
+- Beskriv opprinnelse og prosesshistorie for datasettet.
+- **Best practice:** Gi en detaljert beskrivelse av hvordan dataene ble samlet inn og bearbeidet.
 
-Har du valgt en produktspesifikasjon som er koblet til en UML-modell i feltet over, vil dette feltet oppdatere seg automatisk. Er det ikke opprettet koblinger mellom produktspesifikasjonen og UML-modellen, men det foreligger en UML-modell i Geonorges modellregister er det mulig å legge lenke til UML-modellen i modellregisteret her. Ta kontakt med post@norgedigitalt.no for spørsmål og råd.
+---
 
-### Begreper
+### Fane Administrativt
 
-En UML-modell inneholder informasjon om objekttyper, datatyper og kodelister. Denne informasjonen er mulig å hente fra UML-modellen. Fordelen med å gjøre dette er at denne informasjonen vil kunne bli søkbar i Geonorges søkefelt og forbedre søk som gjøres her. For å hente begreper fra UML-modell må det ligge en lenke til modellen i modellregisteret. Deretter trykker man på knappen Hent.
+- Administreres i stor grad av geodatakoordinator i Kartverket.
+- Mulighet for å legge til høstinger og samarbeid fra nedtrekkslisten.
 
-### Annen produktspesifikasjon
+---
 
-Eksisterer det en produktspesifikasjon som ikke ligger i Geonorge er det mulig å hente inn denne og legge den til i dette feltet. Her legger man inn navn på produktspesifikasjonen og lenke til dokumentet i feltet URL.
+Denne veiledningen gir en kortfattet oversikt over etablering og bruk av metadata i Geonorge. For detaljerte instruksjoner, vennligst henvis til fullstendig veilederdokument.
 
-### Produktark
-
-Eksisterer det et produktark i registeret i Geonorge vil det være mulig å koble opp dette i metadataoppføringen med å velge produktarket fra nedtrekkslisten.
-
-### Tegneregler
-
-Eksisterer det tegneregler i registeret i Geonorge vil det være mulig å koble disse opp mot metadataoppføringen ved å velge tegnereglene fra nedtrekkslisten.
-
-### Produktside
-
-Finnes det en egen side med informasjon om ressursen kan lenke til denne legges inn i dette feltet. Dette vil aktivere knappen Vis produktside i metadataoppføringen.
-
-### Illustrasjonsbilde (Påkrevd)
-
-Illustrasjonbilde legges til ved å laste opp bilde fra egen datamaskin. Trykk Velg fil for å velge fil på din egen datamaskin. Trykk deretter på knappen Last opp. Bildet vil vises under knappene etter opplasting.
-
-## Fane Restriksjoner
-
-Her er det mulighet for å angi begrensninger og restriksjoner knyttet til tilgang og bruk av datasettet. Det er ikke gjort en grundig vurdering angående hva som er «best practice» på dette området i Norge digitalt.
-
-### Bruksbegrensninger
-
-I dette feltet angir man hvilke områder dataene ikke er egnet for eller hvis det foreligger begrensninger på bruk av dataene. Det anbefales å oppgi hvorfor det er begrensninger på bruk.
-
-### Tilgangsrestriksjoner
-
-Her kan man angi tilgangsrestriksjon fra nedtrekksliste. Valgmulighetene er:
-
-- Åpne data: Data som er åpent tilgjengelig for nedlasting og bruk
-- Norge digitalt-begrenset: Data om kun er fritt tilgjengelig for deltakere i Norge digitalt-samarbeidet.
-- Skjermede data: Data som ikke er åpne for nedlasting eller begrenset gjennom Norge digitalt-samarbeidet. Dataeier bør se på hvordan brukere skal få tak i skjermede data. Det finnes i dag ulike løsninger på dette hvor dataeier gir tilgang til brukere gjennom dataeiers nedlastingsløsning, eller at det er gitt tilgang gjennom Geonorges autentisering- og nedlastingsløsning.
-
-### Brukerrestriksjoner
-
-Foreligger det brukerrestriksjoner i form av lisens, angis dette i nedtrekkslisten. Velger man Lisens her vil feltet Lisens aktiveres. Man kan da angi aktuell lisens fra nedtrekksliste. Ønsker man å bruke lisenser utover hva som ligger i listen kan man trykke på knappen Egendefinert for å legge dette til.
-
-### Andre restriksjoner
-
-Er det andre restriksjoner på bruk av ressursen kan man legge det til i dette feltet.
-
-### Sikkerhetsnivå
-
-Her kan man angi aktuelt sikkerhetsnivå fra nedtrekksliste.
-
-### Lovhenvisning
-
-Feltet er aktuelt for grunngiving av tilgangsbegrensninger eller bruksbegrensninger i form av juridiske forhold eller andre begrensende faktorer. Her kan en henvise til lov, forskrift eller lignende.
-
-## Fane Nøkkelord
-
-### Tematisk hovedkategori
-
-Her kan man velge tematiske kategorier definert i metadatastandarden.
-
-### Tema
-
-Her kan man angi nøkkelord som vil hjelpe til med å forbedre søket i søkemotoren i Geonorge. Gode nøkkelord er en forutsetning for at metadataene skal bli funnet av brukerne. Nøkkelord skrives i entall og det skal brukes folkelige termer i tillegg til mer spesifikke faguttrykk. Det er ikke nødvendig å gjenta tittel eller organisasjon som eier datasettet. Trykk på knappen Legg til nøkkelord for å legge til flere nøkkelord.
-
-### Nasjonal temakategori
-
-Nasjonal temakategori er en norsk tematisk inndeling basert på kategoriene fra det offentlige kartgrunnlaget. Velg temakategori fra nedtrekksliste. Trykk på Legg til nøkkelord hvis det er aktuelt med flere temakategorier.
-
-### Inspire-kategorier
-
-Hvis datasettet inneholder data som inngår blant Inspire-datasett skal det angis aktuelt tema her. Dette velges i nedtrekksliste. Trykk på Legg til nøkkelord for å legge til kategori.
-
-### EU-prioriterte datasett
-
-Feltet er kun aktuelt for datasett som skal inngå i INSPIREs miljørapportering. Trykk på Legg til nøkkelord for å legge til kategori.
-
-### Ukategoriserte nøkkelord
-
-Ukategoriserte nøkkelord henger igjen fra en tidligere versjon av metadataeditoren og bør ikke brukes. Det anbefales å legge til nøkkelord under Tema.
-
-## Fane Kvalitet
-
-### Målestokktall
-
-Angi målestokktall som heltall. Eksempel 50000.
-
-### Status
-
-Angi status for datasettet/tjenesten fra nedtrekksliste. Dette gir ikke status for metadata.
-
-### Prosesshistorie
-
-Her angis produsentens generelle kunnskap om opprinnelse og prosesshistorie til datasettet eller tjenesten. Her kan det kort forklares viktige operasjoner som er gjort fra datafangst til leveranse og hvordan dette eventuelt påvirker kvalitet og innhold i datasettet.
-
-## Fane Administrativt
-
-Fanen administrativt administreres i stor grad av geodatakoordinator i Kartverket. Man har imidlertid mulighet for å legge til ulike høstinger og samarbeid som datasettet eller tjenesten inngår i. Dette velges fra nedtrekksliste.
