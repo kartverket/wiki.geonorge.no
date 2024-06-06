@@ -76,7 +76,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Grunnleggende
+### Fane - Grunnleggende
 
 #### 3.1 Tittel (Påkrevd)
 - **Best practice:** Datasettnavn bør være presist og unikt. Unngå generelle begreper. Bruk spesifikke og beskrivende navn som "Akvakulturlokaliteter" i stedet for bare "Lokaliteter".
@@ -103,7 +103,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Tid og rom
+### Fane - Tid og rom
 
 #### 4.1 Dato sist oppdatert
 - Oppgi dato for siste oppdatering av datasettet.
@@ -166,7 +166,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Kontaktinformasjon
+### Fane - Kontaktinformasjon
 
 #### 5.1 Metadatakontakt
 - Oppgi kontaktpunkt for vedlikehold av metadata.
@@ -184,7 +184,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Distribusjon
+### Fane - Distribusjon
 
 #### 6.1 Representasjonsform
 - Velg riktig representasjonsform fra nedtrekkslisten, som vektor eller raster.
@@ -209,7 +209,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Dokumentasjon
+### Fane - Dokumentasjon
 
 #### 7.1 SOSI produktspesifikasjon
 - Velg riktig SOSI produktspesifikasjon fra nedtrekkslisten hvis tilgjengelig.
@@ -245,7 +245,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Restriksjoner
+### Fane - Restriksjoner
 
 #### 8.1 Bruksbegrensninger
 - Angi begrensninger på bruk.
@@ -276,7 +276,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Nøkkelord
+### Fane - Nøkkelord
 
 #### 9.1 Tematisk hovedkategori
 - Velg tematiske kategorier fra nedtrekkslisten.
@@ -299,7 +299,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Kvalitet
+### Fane - Kvalitet
 
 #### 10.1 Målestokktall
 - Angi målestokktall som heltall, for eksempel 50000.
@@ -314,7 +314,7 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 
 ---
 
-### Fane Administrativt
+### Fane - Administrativt
 
 - Administreres i stor grad av geodatakoordinator i Kartverket.
 - Mulighet for å legge til høstinger og samarbeid fra nedtrekkslisten.
