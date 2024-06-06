@@ -5,8 +5,6 @@ parent: Tilgang & passord
 permalink: /tilgang/registrering
 ---
 
-Er du en Norge digitalt-part?
-
 <!-- HTML and JavaScript to add buttons and functionality -->
 <style>
   .modern-button {
@@ -44,28 +42,27 @@ Er du en Norge digitalt-part?
   }
 </style>
 
-<button class="modern-button" onclick="showIframe()">Ja</button>
-<button class="modern-button" onclick="showMessage()">Nei</button>
+<p class="bold-message">Jeg er:</p>
+<button class="modern-button" onclick="showIframe('https://www.geonorge.no/NDUserForm/')">Norge digitalt-part</button>
+<button class="modern-button" onclick="showMessage('Brukertilganger er kun for Norge digitalt parter. Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole. Liste over nasjonale parter i Norge digitalt')">Student</button>
+<button class="modern-button" onclick="showIframe('https://www.geonorge.no/Geodataarbeid/Norge-digitalt/avtaler-og-maler/')">Forhandler</button>
+<button class="modern-button" onclick="showIframe('https://www.kartverket.no/api-og-data/kjope-kartdata')">Annet</button>
 
 <div id="iframeContainer" style="display: none;">
-  <iframe src="https://www.geonorge.no/NDUserForm/"></iframe>
+  <iframe></iframe>
 </div>
-<div id="messageContainer" style="display: none;">
-  <p class="bold-message">Brukertilganger er kun for Norge digitalt parter.<br>
-  Om du er student ber vi deg kontakte ansvarlig ved ditt universitet / høgskole.</p>
-  <p class="bold-message">
-    <a href="https://www.geonorge.no/globalassets/geonorge2/parter/nasjonale-parter-i-norge-digitalt-1.pdf" target="_blank">Liste over nasjonale parter i Norge digitalt</a>
-  </p>
-</div>
+<div id="messageContainer" style="display: none;"></div>
 
 <script>
-  function showIframe() {
+  function showIframe(url) {
     document.getElementById('iframeContainer').style.display = 'block';
+    document.getElementById('iframeContainer').querySelector('iframe').src = url;
     document.getElementById('messageContainer').style.display = 'none';
   }
 
-  function showMessage() {
+  function showMessage(message) {
     document.getElementById('iframeContainer').style.display = 'none';
     document.getElementById('messageContainer').style.display = 'block';
+    document.getElementById('messageContainer').innerText = message;
   }
 </script>
