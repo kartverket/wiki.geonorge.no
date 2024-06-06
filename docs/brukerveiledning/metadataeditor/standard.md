@@ -251,7 +251,8 @@ Alle tekstfelt kan fylles ut på både norsk og engelsk.
 - Angi begrensninger på bruk.
 - **Best practice:** Oppgi detaljerte og klare begrensninger for å unngå misbruk.
 
-![Skjermbilde av bruksbegrensninger](path/to/image24.png)
+![Skjermbilde av bruksbegrensninger](https://github.com/kartverket/docs.geonorge.no/assets/22092618/11e78412-cd52-40b1-b7d0-db86cbdb45cc)
+
 
 #### 8.2 Tilgangsrestriksjoner
 - Velg tilgangsrestriksjon fra nedtrekkslisten.
