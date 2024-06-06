@@ -3,7 +3,7 @@ layout: default
 title: Enkel metadataeditor
 parent: Metadataeditor
 grand_parent: Brukerveiledning
-nav_order: 1
+nav_order: 2
 permalink: /brukerveiledning/metadataeditor/enkel
 ---
 
