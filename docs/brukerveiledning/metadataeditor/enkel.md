@@ -41,8 +41,6 @@ Denne veiledningen gir en enkel og kortfattet guide for nye brukere om hvordan m
 
 Enkle metadata oppretter man i metadataeditoren i Geonorge. Denne finner man ved å velge «Verktøy» under menyen og deretter «Metadataeditor». Man kan også gå direkte til editoren ved hjelp av denne adressen: [editor.geonorge.no/Metadata](https://editor.geonorge.no/Metadata). For å komme til metadataeditoren må man logge inn. Ta kontakt med [post@norgedigitalt.no](mailto:post@norgedigitalt.no) hvis du ikke har bruker eller har problemer med å logge inn.
 
-![Skjermbilde av innlogging](path/to/image1.png)
-
 
 I metadataeditoren trykker man på fanen «Opprett enkle metadata». Her fyller man inn datasettets tittel og trykker deretter på knappen «Opprett metadata».
 
