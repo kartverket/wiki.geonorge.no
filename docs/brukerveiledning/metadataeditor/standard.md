@@ -15,15 +15,15 @@ Denne veiledningen gir en enkel og kortfattet guide for nye brukere om hvordan m
 #### Innholdsfortegnelse
 1. [Introduksjon](#introduksjon)
 2. [Finne og opprette metadata](#finne-og-opprette-metadata)
-3. [Fane Grunnleggende](#fane-grunnleggende)
-4. [Fane Tid og rom](#fane-tid-og-rom)
-5. [Fane Kontaktinformasjon](#fane-kontaktinformasjon)
-6. [Fane Distribusjon](#fane-distribusjon)
-7. [Fane Dokumentasjon](#fane-dokumentasjon)
-8. [Fane Restriksjoner](#fane-restriksjoner)
-9. [Fane Nøkkelord](#fane-nøkkelord)
-10. [Fane Kvalitet](#fane-kvalitet)
-11. [Fane Administrativt](#fane-administrativt)
+3. [Fane - Grunnleggende](#fane-grunnleggende)
+4. [Fane - Tid og rom](#fane-tid-og-rom)
+5. [Fane - Kontaktinformasjon](#fane-kontaktinformasjon)
+6. [Fane - Distribusjon](#fane-distribusjon)
+7. [Fane - Dokumentasjon](#fane-dokumentasjon)
+8. [Fane - Restriksjoner](#fane-restriksjoner)
+9. [Fane - Nøkkelord](#fane-nøkkelord)
+10. [Fane - Kvalitet](#fane-kvalitet)
+11. [Fane - Administrativt](#fane-administrativt)
 
 ---
 
