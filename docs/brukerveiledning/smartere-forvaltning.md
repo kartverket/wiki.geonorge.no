@@ -8,6 +8,26 @@ permalink: /brukerveiledning/smartere-forvaltning
 
 # Brukerveiledning for Smartere Forvaltning
 
+## Innholdsfortegnelse
+1. [Tilgangskrav](#tilgangskrav)
+2. [Autorisasjon for bruk](#autorisasjon-for-bruk)
+3. [Funksjonalitet](#funksjonalitet)
+4. [Sikkerhet](#sikkerhet)
+5. [For dataeier(e)](#for-dataeiere)
+    1. [Legge til nytt datasett](#legge-til-nytt-datasett)
+    2. [Definisjoner (datastruktur)](#definisjoner-datastruktur)
+    3. [Tilganger](#tilganger)
+    4. [Importer](#importer)
+    5. [Eksporter](#eksporter)
+6. [Editering av datasett](#editering-av-datasett)
+    1. [Legge til objekt](#legge-til-objekt)
+    2. [Redigere objekt i kart](#redigere-objekt-i-kart)
+    3. [Editering ved bruk av tabellvisning](#editering-ved-bruk-av-tabellvisning)
+7. [Brukerveiledning for Nettverksanalyse](#brukerveiledning-for-nettverksanalyse)
+    1. [Gjennomføring av analyse](#gjennomføring-av-analyse)
+    2. [Om analyseresultatene](#om-analyseresultatene)
+    3. [Eksportering av resultater](#eksportering-av-resultater)
+
 ### Tilgangskrav
 ----------------------
 For å kunne benytte seg av denne løsningen, er det nødvendig å ha en Norge digitalt-bruker. Dette sikrer at alle brukere er autoriserte og at data håndteres på en sikker og ansvarlig måte. Registrering som Norge digitalt-bruker er en enkel prosess, og er det første steget for å få tilgang til løsningen.
